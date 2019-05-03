@@ -13,4 +13,3 @@ Used sources:
 https://www.w3schools.com/css/css3_animations.asp
 https://www.w3schools.com/css/css3_2dtransforms.asp
 https://www.w3schools.com/csS/css3_object-fit.asp
-
