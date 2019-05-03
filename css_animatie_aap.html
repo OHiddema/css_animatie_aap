@@ -11,6 +11,7 @@
       /* background-color: white; */
       background-image:url(background_jungle.jpg);
       background-size:cover;
+      /* background-repeat: no-repeat; */
       min-width: 200px;
     }
 
@@ -24,6 +25,18 @@
       margin: 0 auto;
       position: relative;
       top: 300px;
+      animation-name: jumping;
+      animation-timing-function: linear;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-delay: 2s;
+    }
+
+    @keyframes jumping {
+      0% {top: 300px; transform: rotate(0deg)}
+      50% {top: 0; transform: rotate(180deg)}
+      100% {top: 300px; transform: rotate(360deg)}
     }
 
   </style>
